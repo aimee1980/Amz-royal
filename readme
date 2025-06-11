@@ -1,16 +1,7 @@
 cd C:\Users\aimee\cbc\Python\5projects\amz-royal\app
+
 .\venv\Scripts\activate        # Activate virtual environment
 set FLASK_APP=app.py          # Set the app entry point
 flask run                     # Start the Flask server
 
 
-jobzilla_python/
-├── app.py
-├── static/
-│   ├── css/
-│   │   └── styles.css
-│   └── images/
-│       └── (image files)
-├── templates/
-│   └── index.html
-├── venv/
