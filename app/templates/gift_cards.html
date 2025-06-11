@@ -1,0 +1,17 @@
+{% extends 'sharedpage.html'%}
+{% block title %} Gift Card {% endblock title %}
+{% block main %}
+
+    <main>
+        <h2>Available Gift Cards</h2>
+        <div class="product-container">
+            {% for card in gift_cards %}
+            <div class="product-card">
+                <img src="{{ url_for('static', filename=card.image) }}" alt="{{ card.name }}">
+                <h3>{{ card.name }}</h3>
+            </div>
+            {% endfor %}
+        </div>
+    </main>
+
+    {% endblock main %}

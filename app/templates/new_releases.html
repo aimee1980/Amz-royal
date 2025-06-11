@@ -1,0 +1,37 @@
+{% extends 'sharedpage.html'%}
+{% block title %} Gift Card {% endblock title %}
+{% block main %}
+    <main>
+        <h2>Products Coming Soon...</h2>
+        <p>Stay tuned for amazing deals and services!</p>
+        
+
+        <!-- Products Placeholder -->
+        <div class="products-container">
+            <div class="product">
+                <img src="{{ url_for('static', filename='images/echo.jpg') }}" alt="Echo Dot">
+                <h3>MOVIES</h3> 
+                <p>A-Z</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="{{ url_for('static', filename='images/tablet.jpg') }}" alt="Fire Tablet">
+                <h3>TV SHOWS AND SERIES</h3>
+                <p>A-Z</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="{{ url_for('static', filename='images/kindle.jpg') }}" alt="Kindle Paperwhite">
+                <h3>DOCUMENTIRES AND PODCASTS</h3>
+                <p>A-Z</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+    </main>
+    {% endblock main %}
+    <footer>
+        <p>© 2025 Aimee's Mock-Amazon. All rights reserved.</p>
+    </footer>
+</body>
+</html>

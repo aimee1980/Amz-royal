@@ -1,0 +1,41 @@
+
+    
+
+
+    {% extends 'sharedpage.html'%}
+{% block title %} Gift Card {% endblock title %}
+{% block main %}
+  
+<main>
+    <h2>on Sale this week ...</h2>
+    <p>Stay tuned for amazing deals and services!</p>
+    
+
+    <!-- Products Placeholder -->
+    <div class="products-container">
+        <div class="product">
+            <img src="{{ url_for('static', filename='images/echo.jpg') }}" alt="Echo Dot">
+            <h3>Price Drop </h3> 
+            <p>Price: 49.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="{{ url_for('static', filename='images/tablet.jpg') }}" alt="Fire Tablet">
+            <h3>Price Drop</h3>
+            <p>Price: $89.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="{{ url_for('static', filename='images/kindle.jpg') }}" alt="Kindle Paperwhite">
+            <h3></h3>Price Drop
+            <p>Price: $19.99</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+
+
+</main>
+
+
+{% endblock main %}
