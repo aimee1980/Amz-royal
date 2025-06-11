@@ -10,7 +10,7 @@ jobzilla_python/
 │   ├── css/
 │   │   └── styles.css
 │   └── images/
-│       └── (your image files)
+│       └── (image files)
 ├── templates/
 │   └── index.html
 ├── venv/
